@@ -1,0 +1,21 @@
+Candidate_ID,Gender,Age,Education_Level,Years_Experience,Skill_Score,Interview_Score,Previous_Companies,Gap_Years,Certifications,Location,Applied_Role,Hired
+1,Male,22,Bachelors,1,70,75,0,0,1,Mumbai,Data Analyst,1
+2,Female,25,Masters,3,85,80,2,0,2,Pune,Data Scientist,1
+3,Male,28,Bachelors,5,60,55,3,1,1,Delhi,Data Analyst,0
+4,Female,30,PhD,7,90,88,4,0,3,Bangalore,ML Engineer,1
+5,Male,24,Bachelors,2,50,45,1,0,0,Mumbai,Data Analyst,0
+6,Female,27,Masters,4,78,82,2,0,2,Pune,Data Scientist,1
+7,Male,26,Bachelors,3,65,60,2,1,1,Delhi,Data Analyst,0
+8,Female,29,Masters,6,88,90,3,0,3,Bangalore,ML Engineer,1
+9,Male,23,Bachelors,1,55,50,0,0,0,Mumbai,Data Analyst,0
+10,Female,31,PhD,8,92,95,5,0,4,Pune,Data Scientist,1
+11,Male,27,Masters,4,72,70,2,0,2,Delhi,ML Engineer,1
+12,Female,26,Bachelors,3,68,65,1,1,1,Mumbai,Data Analyst,0
+13,Male,32,PhD,9,95,93,6,0,5,Bangalore,Data Scientist,1
+14,Female,24,Bachelors,2,58,60,1,0,1,Pune,Data Analyst,0
+15,Male,29,Masters,6,80,78,3,0,2,Delhi,ML Engineer,1
+16,Female,28,Masters,5,75,77,2,0,2,Mumbai,Data Scientist,1
+17,Male,25,Bachelors,3,62,58,1,1,1,Pune,Data Analyst,0
+18,Female,30,PhD,7,89,91,4,0,3,Bangalore,ML Engineer,1
+19,Male,26,Bachelors,4,67,66,2,0,1,Delhi,Data Analyst,0
+20,Female,27,Masters,5,82,85,3,0,2,Mumbai,Data Scientist,1
