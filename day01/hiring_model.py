@@ -21,3 +21,6 @@ model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 
 print(f"Accuracy Score: {accuracy_score(y_test, y_pred)}")
+print("_"*100)
+print(df.groupby("Hired")["Skill_Score"].mean())
+print("_"*100)
