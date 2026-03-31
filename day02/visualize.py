@@ -15,3 +15,8 @@ plt.title("Hiring Selection Graph")
 plt.show()
 
 print(f"Averages:\n{df.groupby('Hired')[['Skill_Score', 'Interview_Score']].mean()}")
+
+df["Total_Score"] = df[["Skill_Score", "Interview_Score"]].mean(axis=1)
+plt.hist(df["Total_Score"])
+plt.title("Total Score Distribution")
+plt.show()
