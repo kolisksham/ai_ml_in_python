@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r"C:\Users\hp\Desktop\ai_ml_in_python\ai_ml_in_python\datasets\recruitment.csv")
+df = pd.read_csv("datasets/recruitment.csv")
 
 print(f"Hired:\n{df["Hired"].value_counts()}")
 print("_"*100)

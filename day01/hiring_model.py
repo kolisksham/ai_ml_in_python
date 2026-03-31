@@ -4,9 +4,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 
-df = pd.read_csv(r"C:\Users\hp\Desktop\ai_ml_in_python\ai_ml_in_python\datasets\recruitment.csv")
+df = pd.read_csv("datasets/recruitment.csv")
 
-#display first 5 readings
+
 print(f"Data:\n{df.head()}")
 print("_"*100)
 
