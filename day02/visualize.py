@@ -20,3 +20,7 @@ df["Total_Score"] = df[["Skill_Score", "Interview_Score"]].mean(axis=1)
 plt.hist(df["Total_Score"])
 plt.title("Total Score Distribution")
 plt.show()
+
+plt.scatter(df["Total_Score"], df["Hired"], c=colors)
+plt.title("Total Score VS Hiring Graph")
+plt.show()
