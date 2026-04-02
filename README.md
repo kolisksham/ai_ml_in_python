@@ -8,9 +8,9 @@ This repository documents my hands-on journey of learning Machine Learning by bu
 
 To become job-ready in AI/ML by:
 
-* Building real projects
+* Building real-world projects
 * Understanding core concepts deeply
-* Practicing consistently with structured daily tasks
+* Practicing consistently through structured daily challenges
 
 ---
 
@@ -24,41 +24,60 @@ To become job-ready in AI/ML by:
   * Features vs Target
   * Train-Test Split
   * Model training and prediction
-* Achieved first working ML pipeline
+* Successfully implemented a basic ML pipeline
 
 ---
 
 ### ✅ Day 2: Data Visualization & Insights
 
 * Visualized relationships between features
-* Created scatter plots for:
+* Created scatter plots:
 
   * Skill Score vs Interview Score
 * Used color mapping to distinguish hiring outcomes
-* Analyzed feature distributions using histograms
-* Observed patterns in hiring decisions
+* Analyzed distributions using histograms
+* Observed clear patterns in hiring decisions
 
 ---
 
-### ✅ Day 3: Feature Engineering & Model Improvement
+### ✅ Day 3: Feature Engineering & Scaling
 
-* Created new features:
+* Created engineered features:
 
   * `Total_Score` (combined performance metric)
   * `Experience_Score` (scaled using MinMaxScaler)
-* Applied feature scaling for consistency
+* Applied feature scaling for consistent comparison
 * Compared multiple models:
 
-  * Skill + Interview → Accuracy: **1.0**
-  * Experience only → Accuracy: **0.5**
-  * Total Score → Accuracy: **0.75**
-  * All features combined → Accuracy: **0.75**
+  * Skill + Interview → **1.0 accuracy**
+  * Experience only → **0.5 accuracy**
+  * Total Score → **0.75 accuracy**
+  * All features combined → **0.75 accuracy**
 * Key Learnings:
 
   * More features ≠ better performance
   * Weak features can degrade model accuracy
-  * Feature selection is critical in ML
-  * Information loss occurs when compressing features
+  * Feature scaling improves fairness across features
+  * Feature compression can lead to information loss
+
+---
+
+### ✅ Day 4: Model Comparison (Logistic vs Decision Tree)
+
+* Implemented Decision Tree classifier
+* Compared with Logistic Regression
+* Observed differences in model behavior:
+
+  * Logistic Regression → linear decision boundary
+  * Decision Tree → rule-based decisions
+* Visualized Decision Tree structure
+* Experimented with tree depth (`max_depth`)
+* Key Learnings:
+
+  * Different models think differently
+  * Decision Trees can handle non-linear patterns
+  * Risk of overfitting with deeper trees
+  * Model selection depends on data characteristics
 
 ---
 
@@ -68,7 +87,9 @@ To become job-ready in AI/ML by:
 * Feature engineering and its impact
 * Feature scaling using MinMaxScaler
 * Model evaluation using accuracy
-* Feature importance and noise vs signal
+* Feature importance (signal vs noise)
+* Model comparison and behavior analysis
+* Overfitting basics
 
 ---
 
@@ -84,13 +105,15 @@ To become job-ready in AI/ML by:
 
 ## 📁 Project Structure
 
-```
+```id="m2k9xy"
 AI-ML-Playground/
 │
 ├── datasets/              # Raw datasets
 ├── day01_basics/          # Basic ML model
 ├── day02_visualization/   # Data visualization & insights
-├── day03_improvement/     # Feature engineering & experiments
+├── day03_improvement/     # Feature engineering & scaling
+├── day04_models/          # Model comparison (Logistic vs Tree)
+├── final_project/         # Upcoming industry-level project
 ├── models/                # Saved models (future use)
 ├── utils/                 # Helper functions (future use)
 ├── notebooks/             # Experiments & notes
@@ -101,25 +124,26 @@ AI-ML-Playground/
 
 ## 🔥 Learning Approach
 
-* Learn by doing (not just watching)
+* Learn by building (not just watching)
 * Experiment and analyze results
-* Focus on small daily improvements
-* Build intuition behind models
+* Focus on daily consistency
+* Understand *why* models behave a certain way
 
 ---
 
 ## ⚡ Key Insight So Far
 
 > The best model is not the most complex —
-> it’s the one with the right features.
+> it’s the one with the right features and understanding.
 
 ---
 
 ## 🚀 Next Steps
 
-* Compare different ML models (Decision Tree vs Logistic Regression)
-* Understand model behavior and decision boundaries
+* Handle real-world messy data (missing values, inconsistencies)
+* Improve preprocessing pipeline
 * Build a complete end-to-end ML project
+* Optimize and evaluate models more deeply
 
 ---
 
@@ -131,5 +155,5 @@ Consistency > Motivation
 
 ## 📌 Status
 
-🟢 In Progress — Day 3 Complete
-🔜 Moving to Day 4: Model Comparison
+🟢 In Progress — Day 4 Complete
+🔜 Moving to Day 5: Data Cleaning & Real-World Challenges

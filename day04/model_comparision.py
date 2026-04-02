@@ -32,7 +32,7 @@ print("_"*100)
 # MODEL 2: Decision Tree Model
 # ====================================================================================================== #
 
-dt_model = DecisionTreeClassifier()
+dt_model = DecisionTreeClassifier(max_depth=2)
 dt_model.fit(x_train, y_train)
 
 pred2 = dt_model.predict(x_test)
