@@ -123,7 +123,7 @@ def predict_hire(skill, interview, experience):
         columns=["Skill_Score", "Interview_Score", "Years_Experience"]
     )
 
-    # Keep feature names → avoids warnings
+    # Keep feature names -> avoids warnings
     data_scaled = pd.DataFrame(
         scaler.transform(data),
         columns=["Skill_Score", "Interview_Score", "Years_Experience"]
