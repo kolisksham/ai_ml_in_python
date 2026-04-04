@@ -14,7 +14,7 @@ x = df[["Skill_Score", "Interview_Score"]]
 # output
 y = df["Hired"]
 
-x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 # ====================================================================================================== #
 # MODEL 1: Logostic Regression Model
