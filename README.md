@@ -115,6 +115,12 @@ To become job-ready in AI/ML by:
 
 ---
 
+### ✅ Day 7,8,9: Theory Revision/Break
+
+* Taking a Break after 6 days of fast-paced Learning.
+
+---
+
 ## 🧠 Key Concepts Learned
 
 * Machine Learning pipeline (data → model → prediction)
